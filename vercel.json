@@ -1,0 +1,12 @@
+{
+    "rewrites": [
+        {
+            "source": "/",
+            "destination": "/skills-showcase/index.html"
+        },
+        {
+            "source": "/(.*)",
+            "destination": "/skills-showcase/$1"
+        }
+    ]
+}
